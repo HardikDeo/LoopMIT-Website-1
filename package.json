@@ -5,6 +5,7 @@
   "homepage": "https://loopmit.in",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@tailwindcss/vite": "^4.1.12",
     "bootstrap": "^5.3.7",
     "compose-function": "^3.0.3",
     "emailjs-com": "^3.2.0",
@@ -20,6 +21,7 @@
     "react-scroll": "^1.9.3",
     "react-typed": "^2.0.12",
     "sass": "^1.89.2",
+    "tailwindcss": "^4.1.12",
     "typed.js": "^2.0.10"
   },
   "scripts": {

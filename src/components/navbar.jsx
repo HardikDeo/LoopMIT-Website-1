@@ -123,7 +123,7 @@ export default function Navbar() {
             </li>
 
             {/* Section Links */}
-            {['home', 'about', 'team', 'sponsors', 'contact'].map((section) => (
+            {['home', 'about', 'team', 'sponsors', 'contact',].map((section) => (
               <li key={section} className="nav-item">
                 <button
                   className="nav-link btn bg-transparent border-0"
@@ -147,6 +147,8 @@ export default function Navbar() {
             ))}
             {/* Achievements */}
             <li className="nav-item">  <RouterLink to="/achievements" className="nav-link">Achievements</RouterLink>
+</li>
+<li className="nav-item">  <RouterLink to="/alumni" className="nav-link">Alumni</RouterLink>
 </li>
           </ul>
         </div>

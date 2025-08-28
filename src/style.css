@@ -58,7 +58,7 @@
     font-size: 1.3rem;
   }
 } */
-
+@import "tailwindcss";
 /* Achievements */
 .achievements{
   margin-top: 10rem;
